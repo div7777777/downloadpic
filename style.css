@@ -1,0 +1,26 @@
+*{padding: 0;margin: 0;}
+.download{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.icon{
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    z-index: 1;
+    opacity: 0;
+}
+.download:hover .icon{
+    background: rgba(20, 20, 20, 0.7);
+    opacity: 1;
+}
+.pictur{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.download:hover .pictur{
+    transform: scale(0.8,0.8);
+   
+}
